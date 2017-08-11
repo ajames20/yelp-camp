@@ -52,6 +52,6 @@ app.use('/campgrounds', campgroundRoutes);
 app.use('/campgrounds/:id/comments', commentsRoutes);
 
 
-app.listen(3000 || process.env.PORT, process.env.IP, () => {
-  console.log('Yelp Camp server running on port 3000');
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
