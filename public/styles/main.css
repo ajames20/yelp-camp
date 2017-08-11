@@ -65,6 +65,11 @@ body {
   border-radius: 0;
 }
 
+.max-image {
+  min-height: 179px;
+  max-height: 179px;
+}
+
 
 /* Flexbox grid fix */
 
