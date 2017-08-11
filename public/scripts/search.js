@@ -10,7 +10,7 @@ $('#campground-search').on('input', function () {
       $('#campground-grid').append(`
         <div class="col-md-3 col-sm-6">
           <div class="thumbnail">
-            <img src="${campground.image}">
+            <img class="max-image" src="${campground.image}">
             <div class="caption">
               <h4>${campground.name}</h4>
             </div>
