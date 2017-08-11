@@ -26,4 +26,4 @@ $('#campground-search').on('input', function () {
 
 setTimeout(() => {
   $(".message").hide();
-}, 3500);
+}, 2550);
