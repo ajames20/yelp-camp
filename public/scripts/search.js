@@ -24,6 +24,7 @@ $('#campground-search').on('input', function () {
   });
 });
 
+// timeout to remove flash message from the DOM
 setTimeout(() => {
   $(".message").hide();
 }, 2550);
