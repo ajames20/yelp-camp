@@ -1,0 +1,113 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+/* Thumbnail styles */
+
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+}
+
+
+/* Google Map styles */
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+
+/* Campground show page delete button */
+
+.delete-form {
+  display: inline-block;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-group-lg>.btn,
+.btn-lg,
+.btn {
+  border-radius: 0;
+}
+
+
+/* Flexbox grid fix */
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.message {
+  position: absolute;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  line-height: 2.5;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  box-shadow: 0 0 5px black;
+  -webkit-transform: translateY(-50px);
+  -webkit-animation: slideDown 2.5s 1 ease forwards;
+}
+
+.message-danger {
+  background-color: #f2dede;
+  border-color: #ebcccc;
+  color: #a94442;
+}
+
+.message-success {
+  background-color: #dff0d8;
+  border-color: #d0e9c6;
+  color: #3c763d;
+}
+
+@-webkit-keyframes slideDown {
+  0%,
+  100% {
+    -webkit-transform: translateY(-50px);
+  }
+  10%,
+  90% {
+    -webkit-transform: translateY(0px);
+  }
+}
