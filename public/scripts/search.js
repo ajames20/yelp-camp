@@ -3,9 +3,9 @@ $(window).on('load', () => {
 
   $('.thumbnail-image').imagesLoaded({ background: true }).
     always(() => {
-      $('.thumbnail-image').fadeIn();
+      $('.thumbnail-image').fadeIn('slow');
     }).done(() => {
-      $('.loader').remove();
+      $('.loader').fadeOut();
     });
 
 
