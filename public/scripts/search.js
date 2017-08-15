@@ -28,3 +28,10 @@ $('#campground-search').on('input', function () {
 setTimeout(() => {
   $(".message").hide();
 }, 2550);
+
+
+// main image loaded ?
+$(window).on('load', () => {
+  // hide/remove the loading image
+  $('.loader').hide();
+});

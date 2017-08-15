@@ -74,6 +74,11 @@ body {
   padding: 0;
 }
 
+.loader {
+  height: 250px;
+  background: url('../images/preloader.gif') no-repeat center;
+}
+
 .thumbnail-image {
   height: 400px;
 }
