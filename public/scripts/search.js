@@ -1,17 +1,11 @@
 $(window).on('load', () => {
   // main image loaded ?
-  // $('.thumbnail-image').imagesLoaded({ background: true }, () => {
-  //   $('.loader').remove();
-  //   $('.thumbnail-image').fadeIn('slow');
-  // });
-
   $('.thumbnail-image').imagesLoaded({ background: true }).
-    always((instance) => {
-      console.log('all images loaded');
+    always(() => {
       Array.from($('.thumbnail-image')).forEach((div) => {
         $('.thumbnail-image').fadeIn();
       });
-    }).done((instance) => {
+    }).done(() => {
       $('.loader').remove();
     });
 
