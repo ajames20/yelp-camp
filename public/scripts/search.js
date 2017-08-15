@@ -8,9 +8,9 @@ $('#campground-search').on('input', function () {
     $('#campground-grid').html('');
     data.forEach((campground) => {
       $('#campground-grid').append(`
-        <div class="col-md-3 col-sm-6">
+        <div class="col-xs-12 col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img class="max-image" src="${campground.image}">
+          <div class="thumbnail-image" style="background: url('${campground.image}') no-repeat center; background-size: cover; max-height: 250px;"></div>
             <div class="caption">
               <h4>${campground.name}</h4>
             </div>

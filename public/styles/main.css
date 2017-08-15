@@ -70,6 +70,14 @@ body {
   max-height: 179px;
 }
 
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail-image {
+  height: 400px;
+}
+
 
 /* Flexbox grid fix */
 
@@ -86,6 +94,7 @@ body {
   right: 0;
   text-align: center;
   line-height: 2.5;
+  padding-top: 2px;
   overflow: hidden;
   -webkit-box-shadow: 0 0 5px black;
   -moz-box-shadow: 0 0 5px black;
