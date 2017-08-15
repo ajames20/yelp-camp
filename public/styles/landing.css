@@ -115,5 +115,5 @@ body {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../images/200.webp') center no-repeat #fff;
+  background: url('../images/loader.gif') center no-repeat #fff;
 }
