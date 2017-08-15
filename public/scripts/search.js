@@ -1,12 +1,8 @@
-$.noConflict();
-
 $(window).on('load', () => {
   // main image loaded ?
   $('.thumbnail-image').imagesLoaded({ background: true }).
     always(() => {
-      Array.from($('.thumbnail-image')).forEach((div) => {
-        $('.thumbnail-image').fadeIn();
-      });
+      $('.thumbnail-image').fadeIn();
     }).done(() => {
       $('.loader').remove();
     });
