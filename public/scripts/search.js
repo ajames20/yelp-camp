@@ -1,5 +1,6 @@
 $(window).on('load', () => {
   // main image loaded ?
+
   $('.thumbnail-image').imagesLoaded({ background: true }).
     always(() => {
       $('.thumbnail-image').fadeIn();
