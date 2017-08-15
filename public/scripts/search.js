@@ -3,7 +3,7 @@ $(window).on('load', () => {
 
   $('.thumbnail-image').imagesLoaded({ background: true }).
     always(() => {
-      $('.thumbnail-image').fadeIn('slow');
+      $('.thumbnail-image').fadeIn();
     }).done(() => {
       $('.loader').fadeOut();
     });
