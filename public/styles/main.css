@@ -74,7 +74,7 @@ body {
   height: 240px;
   display: inline-block;
   background-size: cover;
-  background: transparent url('../images/loader.gif') no-repeat center;
+  background: transparent url('../images/imageLoader.gif') no-repeat center;
 }
 
 
