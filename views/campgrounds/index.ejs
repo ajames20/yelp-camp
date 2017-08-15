@@ -21,7 +21,13 @@
     <% campgrounds.forEach(campground => { %>
       <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="thumbnail">
-          <div class="thumbnail-image" style="background: url('<%= campground.image %>') no-repeat center; background-size: cover; max-height: 250px;"></div>
+
+          <div class="thumbnail-image" style="background: url('<%= campground.image %>') no-repeat center; background-size: cover; max-height: 250px; display: none;">
+            <div class="loader">
+            </div>
+          </div>
+          <div class="loader">
+          </div>
           <div class="caption">
             <h4>
               <%= campground.name %>
