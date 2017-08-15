@@ -94,6 +94,9 @@ body {
   opacity: 1;
 }
 
+
+/* gif loader and modernizer support for no js*/
+
 .no-js #loader {
   display: none;
 }
